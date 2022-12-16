@@ -1,6 +1,6 @@
 package com.sankan.springframeworkstartproject.game;
 
-public class Contra {
+public class Contra implements GameConsole{
 
     public void up(){
         System.out.println("Jump");

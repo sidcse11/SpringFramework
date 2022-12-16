@@ -3,19 +3,20 @@ package com.sankan.springframeworkstartproject.game;
 
 public class GameRunner {
 
-    MarioGame marioGame;
-    //Tightly coupled -> Need to whole code to support contra
+    //GameRunner class is loosely coupled. It does not matter what game you are running. 
+    //You dont need to change the game runner to change the game
+    GameConsole game;
 
-    public GameRunner(MarioGame marioGame){
-        this.marioGame = marioGame;
+    public GameRunner(GameConsole game){
+        this.game = game;
     }
 
     public void run() {
-        System.out.println("Running game : "+ marioGame);
-        marioGame.up();
-        marioGame.down();
-        marioGame.right();
-        marioGame.left();
+        System.out.println("Running game : "+ game);
+        game.up();
+        game.down();
+        game.right();
+        game.left();
 
     }
 

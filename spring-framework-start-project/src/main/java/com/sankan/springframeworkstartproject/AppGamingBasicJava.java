@@ -5,9 +5,9 @@ public class AppGamingBasicJava {
 
     public static void main(String[] args) {
 
-        var marioGame = new MarioGame();
+        //var marioGame = new MarioGame();
         var contra = new Contra();
-        var gameRunner = new GameRunner(marioGame);
+        var gameRunner = new GameRunner(contra);
         gameRunner.run();
 
         
