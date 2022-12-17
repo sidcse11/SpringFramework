@@ -1,6 +1,8 @@
 package com.sankan.springframeworkstartproject.game;
 
+import org.springframework.stereotype.Component;
 
+@Component
 public class GameRunner {
 
     //GameRunner class is loosely coupled. It does not matter what game you are running. 

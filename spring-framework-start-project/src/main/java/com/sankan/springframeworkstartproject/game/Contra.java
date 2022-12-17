@@ -1,5 +1,8 @@
 package com.sankan.springframeworkstartproject.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Contra implements GameConsole{
 
     public void up(){
