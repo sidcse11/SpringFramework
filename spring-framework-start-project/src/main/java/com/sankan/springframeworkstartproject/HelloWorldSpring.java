@@ -16,6 +16,11 @@ public class HelloWorldSpring {
 
    //3. Retrieving bean managed by spring
    System.out.println(context.getBean("name"));
-    }
+   System.out.println(context.getBean("person"));
+   System.out.println(context.getBean("address2"));
+   System.out.println(context.getBean("personMethodCall"));
+   System.out.println(context.getBean("personParameter"));
 
+
+}
 }
