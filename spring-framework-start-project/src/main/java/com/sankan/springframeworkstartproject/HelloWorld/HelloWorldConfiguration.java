@@ -1,4 +1,4 @@
-package com.sankan.springframeworkstartproject.game;
+package com.sankan.springframeworkstartproject.HelloWorld;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -53,4 +53,6 @@ public class HelloWorldConfiguration{
     public Person personParameter(String name,int age,Address address3){
         return new Person(name,age,address3);
     }
+
+
 }
